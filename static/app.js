@@ -1,9 +1,9 @@
 class Chatbox {
     constructor(){
         this.args = {
-            openButton: document.querySelector('.chatbox--button'),
-            Chatbox: document.querySelector('.chatbox--support'),
-            sendButton: document.querySelector('.send--button')
+            openButton: document.querySelector('.chatbox__button'),
+            Chatbox: document.querySelector('.chatbox__support'),
+            sendButton: document.querySelector('.send__button')
         }
 
         this.state = false;
